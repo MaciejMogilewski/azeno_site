@@ -1,6 +1,7 @@
-function Page(props) {
+function Page() {
     return (
-        <div>About us</div>
+        <>
+        </>
     );
 }
 

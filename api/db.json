@@ -63,5 +63,27 @@
       "github": "https://github.com/MaciejMogilewski",
       "linkedin" : "https://www.linkedin.com/in/maciej-mogilewski-a6b35a25b/"
     }
+  ],
+  "contents": [
+    {
+      "id": 1,
+      "mainTitle": "About us",
+      "subTitle": "Our mission",
+      "image": "",
+      "texts": [
+        {
+          "type": "paragraph",
+          "content": "Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.",
+        },
+        {
+          "type": "list",
+          "content": [
+            "Laborum enim quasi at modi",
+            "Ad at tempore",
+            "Labore quaerat esse"
+          ]
+        }
+      ]
+    }
   ]
 }
