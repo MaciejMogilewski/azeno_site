@@ -1,6 +1,6 @@
 function Page(props) {
     return (
-        <div></div>
+        <div>About us</div>
     );
 }
 
