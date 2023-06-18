@@ -9,6 +9,8 @@ interface Employee {
     position: string;
     phone: string;
     seniority: number;
+    github: string;
+    linkedin: string;
 }
 
 interface EmployeeId extends Employee {
@@ -31,17 +33,24 @@ function Page() {
     }, [])
 
     return (
-        <div className="flex gap-4 flex-wrap max-w-5xl m-auto">
-            {employess.map(({fullName, photo, seniority, position, id}) => (
-                <Card
-                    key={id}
-                    fullName={fullName}
-                    photo={photo}
-                    position={position}
-                    seniority={seniority}
-                />
-            ))}
-        </div>
+        <>
+            <h1 className="text-center mb-3 text-5xl">
+                Azeno heroes:
+            </h1>
+            <div className="flex gap-4 flex-wrap max-w-5xl m-auto">
+                {employess.map(({fullName, photo, seniority, position, id, github, linkedin}) => (
+                    <Card
+                        key={id}
+                        fullName={fullName}
+                        photo={photo}
+                        position={position}
+                        seniority={seniority}
+                        github={github}
+                        linkedin={linkedin}
+                    />
+                ))}
+            </div>
+        </>
     );
 }
 
