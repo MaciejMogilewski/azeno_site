@@ -65,7 +65,7 @@ function FormContact() {
                     <textarea id="message"
                               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-black"
                               {...register("message", {required: true})}/>
-                    {errors.message && <p className="text-red-500 mt-1 text-sm">{errors.message?.message}</p>}
+                    {errors.message && <p className="text-red-500 mt-1 text-sm">Message is required!</p>}
                 </div>
                 <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Send</button>
             </form>

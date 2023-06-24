@@ -116,6 +116,18 @@
       "mail": "sada@fas.pl",
       "message": "dfsf",
       "id": 5
+    },
+    {
+      "fullName": "test2",
+      "mail": "test2@dupa.pl",
+      "message": "test2",
+      "id": 6
+    },
+    {
+      "fullName": "test3",
+      "mail": "test3@dupa.pl",
+      "message": "test3",
+      "id": 7
     }
   ]
 }
