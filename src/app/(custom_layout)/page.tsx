@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Employees from "@/components/Employees";
 import FormContact from "@/components/FormContact";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
     return (
@@ -14,9 +15,13 @@ export default function Home() {
             <section id="employees" className="flex min-h-screen flex-col items-center justify-between p-24">
                 <Employees/>
             </section>
+            <section id="portfolio" className="flex min-h-screen flex-col items-center justify-between p-24">
+                <Portfolio/>
+            </section>
             <section id="formContact" className="flex min-h-screen flex-col items-center justify-between p-24">
                 <FormContact/>
             </section>
+
 
         </main>
     )
