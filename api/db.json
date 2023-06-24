@@ -85,5 +85,13 @@
         }
       ]
     }
+  ],
+  "messages": [
+    {
+      "fullName": "jarek",
+      "mail": "jarek@dupa.pl",
+      "message": "jarek ma kota\n",
+      "id": 1
+    }
   ]
 }
