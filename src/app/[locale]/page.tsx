@@ -7,7 +7,7 @@ import HomePage from "@/components/HomePage";
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <section id="home" className="flex min-h-screen flex-col items-center justify-between p-24">
+            <section className="flex min-h-screen flex-col items-center justify-between p-24">
                 <HomePage/>
             </section>
             <section id="about" className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -19,7 +19,7 @@ export default function Home() {
             <section id="portfolio" className="flex min-h-screen flex-col items-center justify-between p-24">
                 <Portfolio/>
             </section>
-            <section id="form" className="flex min-h-screen flex-col items-center justify-between p-24">
+            <section id="formContact" className="flex min-h-screen flex-col items-center justify-between p-24">
                 <FormContact/>
             </section>
         </main>
