@@ -92,6 +92,30 @@
       "mail": "jarek@dupa.pl",
       "message": "jarek ma kota\n",
       "id": 1
+    },
+    {
+      "fullName": "test1",
+      "mail": "test1",
+      "message": "test1",
+      "id": 2
+    },
+    {
+      "fullName": "test1",
+      "mail": "test1",
+      "message": "test1",
+      "id": 3
+    },
+    {
+      "fullName": "sdasd",
+      "mail": "asdas",
+      "message": "asdsa",
+      "id": 4
+    },
+    {
+      "fullName": "sdasd",
+      "mail": "sada@fas.pl",
+      "message": "dfsf",
+      "id": 5
     }
   ]
 }
