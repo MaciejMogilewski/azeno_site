@@ -29,13 +29,6 @@ function ThemeSwitcher() {
             <button
                 type="button"
                 className="py-2 px-4 mx-2 bg-blue-500 hover:bg-blue-600 text-white dark:bg-gray-200 dark:text-black rounded"
-                onClick={() => setThemeHandler(true)}
-            >
-                Dark
-            </button>
-            <button
-                type="button"
-                className="py-2 px-4 mx-2 bg-blue-500 hover:bg-blue-600 text-white dark:bg-gray-200 dark:text-black rounded"
                 onClick={() => setThemeHandler('system')}
             >
                 System
