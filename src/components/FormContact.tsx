@@ -5,6 +5,7 @@ import React, {useState} from "react";
 import apiCall from "@/api/api";
 import {Simulate} from "react-dom/test-utils";
 import reset = Simulate.reset;
+import validateEmail from "@/helpers/validators";
 
 type Inputs = {
     fullName: string;
@@ -27,11 +28,6 @@ function FormContact() {
         await apiCall({endpoint: "messages", method: "POST", body: data})
         setFormSent(true);
         reset();
-    }
-
-    function validateEmail(v) {
-        return /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(v) ||
-            "Email address must be a valid address"
     }
 
     return (

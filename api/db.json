@@ -84,6 +84,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2,
+      "mainTitle": "Carrier",
+      "subTitle": "",
+      "image": "",
+      "texts": [
+        {
+          "type": "paragraph",
+          "content": "Working in our company is worthwhile for two reasons: our innovative approach to the IT industry and our strong team that creates an inspiring and supportive work environment. Our company constantly strives to develop groundbreaking solutions and provides opportunities for skill growth within a dynamic and creative atmosphere, attracting ambitious professionals from the IT field."
+        }
+      ]
     }
   ],
   "messages": [

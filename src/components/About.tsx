@@ -12,7 +12,7 @@ interface List {
     content: string[];
 }
 
-interface Content {
+export interface Content {
     mainTitle: string;
     subTitle: string;
     image: string;
