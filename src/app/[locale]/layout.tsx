@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {notFound} from "next/navigation";
 import {NextIntlClientProvider} from 'next-intl';
+import ThemeContext, {ThemeProvider} from "@/store/ThemeContext";
 
 type Props = {
     children: ReactNode;
@@ -26,13 +27,15 @@ async function LocaleLayout({children, params: {locale}}: Props) {
 
     return (
         <html className="scroll-smooth" lang={locale}>
-        <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-            <Navbar/>
-            {children}
-            <Footer/>
-        </NextIntlClientProvider>
-        </body>
+            <body>
+                <NextIntlClientProvider locale={locale} messages={messages}>
+                    <ThemeProvider>
+                        <Navbar/>
+                            {children}
+                        <Footer/>
+                    </ThemeProvider>
+                </NextIntlClientProvider>
+            </body>
         </html>
     )
 }

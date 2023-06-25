@@ -21,7 +21,7 @@ function FormCarrier() {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="mb-5">
-            <div className="mb-5">
+            <div className="mb-5 mt-5">
                 <label htmlFor="mail" className="text-sm font-medium text-gray-700">Contact email</label>
                 <input
                     id="mail"
@@ -46,10 +46,8 @@ function FormCarrier() {
                     <span className="text-blue-500">Drag and drop</span> or click to upload CV
                 </label>
             </div>
-
             <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 mt-4">Send</button>
         </form>
-
     );
 }
 
